@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/test
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+# ???? ???? ??? ddl ????? ???? ?? ??
+  batch:
+    jdbc:
+      initialize-schema: always
